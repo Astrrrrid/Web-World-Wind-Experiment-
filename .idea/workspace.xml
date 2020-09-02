@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8116661a-a5bc-42dc-8fdd-05648139955c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/wwp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/Collada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/2_cylinder_engine/2_cylinder_engine.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/Reciprocating_Saw/Reciprocating_Saw.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/box/box.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/buggy/buggy.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/duck/duck.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/duck/duckCM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/gearbox_assy/gearbox_assy.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU Macky.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky---Center-StairsnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-4sideturretnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-Back-NorthnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-BrickwallnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-East-WingnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-EastdetaildoornoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-EastnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-EntrancenoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-Front--TurretnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-FrontbrickwallnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-FrontnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-FrontofTowernoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-NortheastUnivnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-NorthnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-RoofnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-Tower-SidenoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-TowerBasenoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-TowernoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/CU-Macky-_Side_BrickwallnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Collada/collada_models/kmlBuilding/roofnoCulling.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer/Explorer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer/Explorer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer/skin-lion/icons.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer/skin-lion/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Explorer/skin-lion/ui.fancytree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NDVIViewer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NDVIViewer/CanvasWorker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NDVIViewer/NDVIViewer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NDVIViewer/analyticalSurfaces.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NDVIViewer/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NEO.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NEO/DatasetDropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NEO/LayerDropdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NEO/NEO.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NEO/NEO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/NEO/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/Offline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/SentinelWMTS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/SentinelWMTS/SentinelWMTS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/SentinelWMTS/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/SubSurface.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/SubSurface/SubSurface.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/SubSurface/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSSlabs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSSlabs/DataGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSSlabs/USGSSlabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSSlabs/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSWells.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSWells/USGSWells.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/USGSWells/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/GoToBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/LayerManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/LayersPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/ProjectionMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/ServersPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/TerrainOpacityController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/util/TimeSeriesPlayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/.Rhistory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/AnnotationController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Annotations.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Annotations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/BasicExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/BasicExample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/BlueMarbleTimeSeries.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/BlueMarbleTimeSeries.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Collada.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Collada.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Configuration.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Configuration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/CustomPlacemark.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/CustomPlacemark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/DeepPicking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/DeepPicking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/DigitalGlobe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/DigitalGlobe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeoJSON.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeoJSON.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeoJSONExporter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeoJSONExporter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeoTiff.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeoTiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeographicMeshes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeographicMeshes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeographicText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GeographicText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GoToLocation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/GoToLocation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/HeatMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/HeatMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/KML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/KML.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/LayerManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Measurements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Measurements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/MultiWindow.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/MultiWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/NightSkyAnimation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/NightSkyAnimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ParseUrlArguments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ParseUrlArguments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Paths.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/PickAllShapesInRegion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/PickAllShapesInRegion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/PlacemarksAndPicking.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/PlacemarksAndPicking.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Polygons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Polygons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/RefreshImagery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/RefreshImagery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ScreenImage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ScreenImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ScreenText.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/ScreenText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Shapefiles.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/Shapefiles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SimplestExample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SurfaceImage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SurfaceImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SurfaceShapes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/SurfaceShapes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/TestMovingSurfaceShapes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/TestMovingSurfaceShapes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/TriangleMeshes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/TriangleMeshes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WKT.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WKT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WMS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WMS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WMTS.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WMTS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WktExporter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WktExporter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/WorldWindShim.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/collada_models/duck/duck.dae" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/collada_models/duck/duckCM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/400x230-splash-nww.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/KML_Samples.kml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/S2A_OPER_MTD_L1C_TL_EPA__20150803T101010_A000591_T32UQB.tif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/S2A_OPER_MTD_L1C_TL_EPA__20150803T101010_A000591_T33UUS.tif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/S2A_OPER_MTD_L1C_TL_EPA__20150803T101010_A000591_T33UVS.tif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/S2A_OPER_MTD_L1C_TL_EPA__20150810T100716_A000691_T33UVP.tif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32UQA.tif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/S2A_OPER_MTD_L1C_TL_EPA__20150813T101657_A000734_T32UQV.tif.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/esa_logo_min.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/etna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/etna.kmz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/etnaOverlay.kml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/surface-image-nearest.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples/data/top_left.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/BMNG_world.topo.bathy.200405.3.2048x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/TectonicPlates.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/crosshair.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/dnb_land_ocean_ice_2012.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/great-white-shark-surface-food-pursuit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/notched-compass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/powered-by-bing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-teal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/castshadow-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-gray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-teal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/plain-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/push-pin-red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/push-pin-yellow-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/pushpins/push-pin-yellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/shark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/stars.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/sunTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-elevation-down-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-elevation-up-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-fov-narrow-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-fov-wide-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-heading-left-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-heading-right-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-look-64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-pan-64x64.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-pitch-down-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-pitch-up-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-zoom-in-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/view/view-zoom-out-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/white-dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/DeepPickingPerformance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/DeepPickingPerformance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/ShapefilesComplex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/ShapefilesComplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/SurfaceShapesComplex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/SurfaceShapesComplex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/VeryManyPaths.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/VeryManyPaths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/VeryManyPolygons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/performance/VeryManyPolygons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BasicWorldWindowController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorldWind.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorldWindow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WorldWindowController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cache/GpuResourceCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cache/MemoryCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cache/MemoryCacheListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/error/AbstractError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/error/ArgumentError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/error/NotYetImplementedError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/error/UnsupportedOperationError.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/aaigrid/AAIGridConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/aaigrid/AAIGridMetadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/aaigrid/AAIGridReader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaAsset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaMaterial.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaNode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaScene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/collada/ColladaUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONCRS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONExporter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONFeatureCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryLineString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryMultiLineString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryMultiPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryMultiPolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONGeometryPolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geojson/GeoJSONParser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/GeoTiffConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/GeoTiffKeyEntry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/GeoTiffMetadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/GeoTiffReader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/GeoTiffUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/TiffConstants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/geotiff/TiffIFDEntry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlAbstractView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlCamera.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlFileCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLatLonAltBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLatLonBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLatLonQuad.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLocation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlLookAt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlOrientation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlRegion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlTimePrimitive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlTimeSpan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmlTimeStamp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/KmzFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/controls/KmlControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/controls/KmlTreeVisibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlDocument.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlFeature.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlFolder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlGroundOverlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlNetworkLink.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlOverlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlPhotoOverlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlPlacemark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlScreenOverlay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/features/KmlTour.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlLineString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlLinearRing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlMultiGeometry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlMultiTrack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlPolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/geom/KmlTrack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlBalloonStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlColorStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlIconStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlLabelStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlLineStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlListStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlPolyStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlStyleMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlStyleSelector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/styles/KmlSubStyle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlAttribute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlChange.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlDelete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlElementsFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlElementsFactoryCached.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlHrefResolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlImagePyramid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlItemIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlNetworkLinkControl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlNodeTransformers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlPair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlRefreshListener.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlRemoteFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlScale.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlStyleResolver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlTreeKeyValueCache.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlUpdate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/kml/util/KmlViewVolume.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/DBaseField.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/DBaseFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/DBaseRecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/PrjFile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/Shapefile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/ShapefileRecord.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/ShapefileRecordMultiPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/ShapefileRecordNull.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/ShapefileRecordPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/ShapefileRecordPolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/shapefile/ShapefileRecordPolyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/README.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/Wkt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/WktElements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/WktExporter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/WktTokens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/WktType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktGeometryCollection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktLineString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktMultiLineString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktMultiPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktMultiPolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktPoint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktPolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/formats/wkt/geom/WktTriangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Angle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/BoundingBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Frustum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Line.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Location.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Matrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Matrix3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/MeasuredLocation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Plane.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Position.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Rectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Sector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/TileMatrix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/TileMatrixSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Vec2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/geom/Vec3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/ClickRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/DragRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/GestureRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/PanRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/PinchRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/RotationRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/TapRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/TiltRecognizer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gesture/Touch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/AsterV2ElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/EarthElevationModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/EarthRestElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/ElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/ElevationImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/ElevationModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/GebcoElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/Globe.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/Globe2D.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/Terrain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/TerrainTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/TerrainTileList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/Tessellator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/TiledElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/UsgsNedElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/UsgsNedHiElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/globe/WcsEarthElevationCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/AtmosphereLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BMNGLandsatLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BMNGLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BMNGOneImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BMNGRestLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BingAerialLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BingAerialWithLabelsLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BingRoadsLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BingTiledImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/BingWMSLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/CompassLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/CoordinatesDisplayLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/DigitalGlobeTiledImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/FrameStatisticsLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/LandsatRestLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/Layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/MercatorTiledImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/OpenStreetMapImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/RenderableLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/RestTiledImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/ShowTessellationLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/StarFieldLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/TectonicPlatesLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/TiledImageLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/ViewControlsLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/WmsLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/WmsTimeDimensionedLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/WmtsLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/WmtsLayerTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/heatmap/HeatMapColoredTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/heatmap/HeatMapIntervalType.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/heatmap/HeatMapLayer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layer/heatmap/HeatMapTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigate/LookAtNavigator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/navigate/Navigator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/WfsCapabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/gml/GmlBoundedBy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/gml/GmlDomainSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/gml/GmlRectifiedGrid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsBoundingBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsConstraint.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsDatasetSummary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsDescription.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsKeywords.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsLanguageString.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsOperationsMetadata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsServiceIdentification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/ows/OwsServiceProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wcs/WcsCapabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wcs/WcsCoverage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wcs/WcsCoverageDescriptions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wcs/WcsUrlBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wcs/WebCoverageService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wms/WmsCapabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wms/WmsLayerCapabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wmts/WmtsCapabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ogc/wmts/WmtsLayerCapabilities.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pick/PickedObject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pick/PickedObjectList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/GeographicProjection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/ProjectionEquirectangular.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/ProjectionGnomonic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/ProjectionMercator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/ProjectionPolarEquidistant.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/ProjectionUPS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projections/ProjectionWgs84.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/DrawContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/FramebufferTexture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/FramebufferTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/FramebufferTileController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/ImageTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/OrderedRenderable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/Renderable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/ScreenCreditController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/SurfaceRenderable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/SurfaceTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/SurfaceTileRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/TextRenderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/Texture.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/render/TextureTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/AtmosphereProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/BasicProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/BasicTextureProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/GpuProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/GpuShader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/GroundProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/SkyProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/StarFieldProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shaders/SurfaceTileRendererProgram.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/AbstractMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/AbstractShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Annotation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/AnnotationAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Compass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/GeographicMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/GeographicText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Path.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Placemark.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/PlacemarkAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Polygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/ScreenImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/ScreenText.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/ShapeAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceCircle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceEllipse.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfacePolygon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfacePolyline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceRectangle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceSector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceShape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceShapeTile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/SurfaceShapeTileBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/Text.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/TextAttributes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shapes/TriangleMesh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/AbsentResourceList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/BasicTimeSequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/BingImageryUrlBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ByteBuffer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Color.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Font.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/FrameStatistics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/GoToAnimator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/HashMap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/HighlightController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ImageSource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Insets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Level.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/LevelRowColumnUrlBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/LevelSet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Logger.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/NominatimGeocoder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Offset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/PeriodicTimeSequence.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/PolygonSplitter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/SunPosition.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Tile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/TileFactory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/UrlBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/WWMath.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/WWMessage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/WWUtil.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/WcsTileUrlBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/WmsUrlBuilder.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/XmlDocument.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/es6-promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/jszip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/libtess.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/measure/AreaMeasurer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/measure/LengthMeasurer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/measure/MeasurerUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/proj4-src.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/BasicWorldWindowController.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/CustomMatchers.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/WorldWindow.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/aaigrid/AAIGridReader.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/aaigrid/aaigrid-tile.asc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/geotiff/GeoTiffReader.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/geotiff/grayscale-test.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/geotiff/rgb-test.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlAbstractView.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlCamera.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlFile.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlIcon.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLatLonAltBox.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLatLonBox.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLatLonQuad.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLink.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLocation.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLod.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlLookAt.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlObject.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlOrientation.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlRegion.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlTimeSpan.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/KmlTimeStamp.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlDocument.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlFeature.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlFolder.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlGroundOverlay.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlNetworkLink.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlOverlay.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlPhotoOverlay.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlPlacemark.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/features/KmlScreenOverlay.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/geom/KmlLineString.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/geom/KmlMultiGeometry.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/geom/KmlPoint.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlBalloonStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlIconStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlLabelStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlLineStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlListStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlPolyStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlStyle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/styles/KmlStyleMap.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/Attribute.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/ImagePyramid.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/ItemIcon.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/KmlElementsFactory.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/KmlElementsFactoryCached.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/NodeTransformers.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/Pair.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/Scale.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/TreeKeyValueCache.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/kml/util/ViewVolume.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/formats/wkt/WktTokens.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Angle.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/BoundingBox.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Frustum.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Line.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Location.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Matrix.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Matrix3.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Plane.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Position.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Sector.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/TileMatrix.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/TileMatrixSet.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Vec2.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/geom/Vec3.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/globe/ElevationImage.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/globe/ElevationModel.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/globe/Globe.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/globe/ProjectionWgs84.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/WcsCapabilities.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/WcsCoverage.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/WcsCoverageDescriptions.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/WcsUrlBuilder.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/WebCoverageService.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/wcs100DescribeCoverage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/wcs100GetCapabilities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/wcs201DescribeCoverage.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ogc/wcs/wcs201GetCapabilities.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/render/DrawContext.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/render/TextRenderer.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test-main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/Color.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/PolygonSplitter.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/PolygonSplitterData.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/SunPosition.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/WWMath.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/WWUtil.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/util/XmlDocument.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/WorldWindShim.build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/almond.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/jsdoc.conf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/jsdoc.layout.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/wrap.end" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/wrap.start" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travis/changelog.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/travis/publishFolderToArtifactory.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="119" column="10" lean-forward="true" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="389" column="24" selection-start-line="389" selection-start-column="24" selection-end-line="389" selection-end-column="24" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="540">
+              <caret line="36" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>addLa</find>
+      <find>CompassLayer</find>
+      <find>CompassLaye</find>
+      <find>placemarks</find>
+      <find>placemarkla</find>
+      <find>shark</find>
+      <find>Render</find>
+      <find>pinLib2</find>
+      <find>sharkLib</find>
+      <find>handlep</find>
+      <find>mouse</find>
+      <find>listener</find>
+      <find>highlightAttributes</find>
+      <find>scale</find>
+      <find>highlighted</find>
+      <find>handlePick</find>
+      <find>docume</find>
+      <find>redrawRequired</find>
+      <find>window.o</find>
+      <find>WorldWind.Placemark</find>
+      <find>rendera</find>
+      <find>placemark2</find>
+      <find>Placemark2</find>
+      <find>#m</find>
+      <find>m2</find>
+      <find>click</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modal.html" />
+        <option value="$USER_HOME$/iCloud Drive (Archive)/Desktop/wwp/examples/PlacemarksAndPicking.html" />
+        <option value="$USER_HOME$/iCloud Drive (Archive)/Desktop/wwp/examples/PlacemarksAndPicking.js" />
+        <option value="$PROJECT_DIR$/examples/PlacemarksAndPicking.html" />
+        <option value="$PROJECT_DIR$/examples/PlacemarksAndPicking.js" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Course" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="wwp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wwp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8116661a-a5bc-42dc-8fdd-05648139955c" name="Default Changelist" comment="" />
+      <created>1580308889250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580308889250</updated>
+      <workItem from="1580308892496" duration="448000" />
+      <workItem from="1580747212746" duration="5883000" />
+      <workItem from="1581688587015" duration="3006000" />
+      <workItem from="1582127102896" duration="9195000" />
+      <workItem from="1582552874743" duration="14000" />
+      <workItem from="1582552893830" duration="4371000" />
+      <workItem from="1582913780747" duration="15524000" />
+      <workItem from="1584034710548" duration="9447000" />
+      <workItem from="1585142416601" duration="2220000" />
+      <workItem from="1599057362776" duration="1949000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="52057000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27106228" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25885227" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="SciView" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/NEO/app.js" />
+    <entry file="file://$PROJECT_DIR$/images/shark.png" />
+    <entry file="file://$PROJECT_DIR$/examples/BasicExample.js" />
+    <entry file="file://$PROJECT_DIR$/examples/ScreenImage.js" />
+    <entry file="file://$PROJECT_DIR$/examples/WorldWindShim.js" />
+    <entry file="file://$PROJECT_DIR$/src/WorldWind.js" />
+    <entry file="file://$PROJECT_DIR$/examples/LayerManager.js" />
+    <entry file="file://$PROJECT_DIR$/examples/ScreenImage.html" />
+    <entry file="file://$PROJECT_DIR$/examples/BasicExample.html" />
+    <entry file="file://$USER_HOME$/iCloud Drive (Archive)/Desktop/wwp/examples/PlacemarksAndPicking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/iCloud Drive (Archive)/Desktop/wwp/examples/PlacemarksAndPicking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#2144#2151#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="9" selection-start-line="6" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="119" column="10" lean-forward="true" selection-start-line="119" selection-start-column="10" selection-end-line="119" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="389" column="24" selection-start-line="389" selection-start-column="24" selection-end-line="389" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

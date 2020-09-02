@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--NOTE: Most Web WorldWind examples use jquery, Bootstrap and requirejs but those technologies are NOT-->
+    <!--required by Web WorldWind. See SimplestExample.html for an example of using Web WorldWind without them.-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script data-main="PlacemarksAndPicking" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.17/require.min.js">
+
+
+    </script>
+
+    <style>
+
+        .modal {
+            display: none;
+            position: fixed;
+            padding-top: 50px;
+            left: 25%;
+            top: 13%;
+            width: 50%;
+            height: 100%;
+
+        }
+        .modal-content {
+            position: relative;
+            background-color: white;
+            padding: 20px;
+            margin: auto;
+            width: 75%;
+            -webkit-animation-name: animatetop;
+            -webkit-animation-duration: 0.4s;
+            animation-name: animatetop;
+            animation-duration: 0.4s
+        }
+        .close-btn {
+            float: right;
+            color: lightgray;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .close-btn:hover {
+            color: darkgray;
+        }
+
+        .modal-header {
+            color: orangered;
+        }
+
+        .modal-footer{
+            color: deepskyblue;
+        }
+
+        img {
+            width: 80%;
+        }
+    </style>>
+</head>
+<body>
+<div class="container">
+    <div class="jumbotron hidden-xs">
+        <h1 style="text-align:center">WorldWind Placemarks</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <h4>Projection</h4>
+            <div class="dropdown" id="projectionDropdown">
+            </div>
+            <br>
+            <h4>Layers</h4>
+            <div class="list-group" id="layerList">
+            </div>
+            <br>
+            <h4>Destination</h4>
+            <div class="input-group" id="searchBox">
+                <input type="text" class="form-control" placeholder="GoTo" id="searchText"/>
+                <span class="input-group-btn">
+                    <button id="searchButton" class="btn btn-primary" type="button">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                </span>
+            </div>
+        </div>
+        <div class="col-sm-9" id="globe">
+            <canvas id="canvasOne" width="1000" height="1000"
+                    style="width: 100%; height: auto; background-color: black;">
+                Your browser does not support HTML5 Canvas.
+            </canvas>
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="m1" show={this.state.show}>
+    <div class="modal-header">
+        <span id="c1" class="close-btn">&times;</span>
+        <h2>Shark Attack spot 1: California's “Red Triangle”</h2>
+    </div>
+    <div class="modal-content">
+        <p>California's “Red Triangle” is the site of over 1/3 of great white shark attacks.
+            The danger zone begins around Bodega Bay and extends south about 50 miles west of San Fransisco.
+            The triangle juts out beyond the Farallon Islands and down to Big Sur south of Monterey.
+            9 attacks per year in the 1950s to 1.5 attacks per year in the last decade of the study.
+            In that time there were 13 recorded shark fatalities in California and only one near the San Francisco Bay.</p>
+        <img src="../images/great-white-shark-surface-food-pursuit.jpg" alt="sharkCA">
+        <a href="https://www.kqed.org/news/11657595/how-worried-should-you-be-about-shark-attacks-on-the-california-coast">read more</a>
+    </div>
+    <div class="modal-footer">
+        <h4>cited from website: Only In Your State</h4>
+    </div>
+</div>
+
+<div class="modal" id="m2" show={this.state.show}>
+
+    <div class="modal-content">
+        <p>Shark dangerous spot: click for more information</p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
