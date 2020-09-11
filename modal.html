@@ -36,8 +36,15 @@
             color: darkgray;
         }
 
+        .pop1 {
+            display: none;
+        }
+
+
+
 
     </style>
+
 
 </head>
 <body>
@@ -55,12 +62,41 @@
     </div>
 </div>
 
+<div class="pop1" id="pop" >
+    <span>Shark dangerous spot</span>
+    <span id="theNo"></span>
+    <span>: click for more information</span>
+</div>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="https://cdn.vox-cdn.com/thumbor/pOMbzDvdEWS8NIeUuhxp23wi_cU=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19700731/googlemaps.png" alt="Smiley" width="32" height="32">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<div class="dropdown">
+    <button class="navbar-toggler" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <span class="navbar-toggler-icon">Pew Pew</span>
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#about">About Me</a>
+        <a class="dropdown-item" href="#heritage">config</a>
+        <a class="dropdown-item" href="#contact">Get In Touch</a>
+    </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 <script>
     let modalBtn = document.getElementById("modal-btn")
     let modal = document.querySelector(".modal")
     let closeBtn = document.querySelector(".close-btn")
+    let modalpop = document.getElementById("pop")
+    let num = 2;
+    document.getElementById('theNo').innerHTML = num;
+
     console.log(closeBtn)
     modalBtn.onclick = function(){
         modal.style.display = "block"
@@ -72,6 +108,25 @@
         if(e.target == modal){
             modal.style.display = "none"
         }
+    }
+
+    modalBtn.onmouseover = function(){
+        modalpop.style.display = "block"
+    }
+
+    modalBtn.onmouseout = function(){
+        modalpop.style.display = "none"
+    }
+
+
+    function bigImg(x) {
+        x.style.height = "64px";
+        x.style.width = "64px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "32px";
+        x.style.width = "32px";
     }
 </script>
 </html>

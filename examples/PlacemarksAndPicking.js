@@ -75,7 +75,7 @@ requirejs(['./WorldWindShim',
         ];
 
         var image2 = [
-            "shark.png"
+            "shark.png", "shark2.png","shark3.png"
         ];
 
         WorldWind.configuration.baseUrl
@@ -91,9 +91,11 @@ requirejs(['./WorldWindShim',
             placemark2,
             placemarkAttributes2 = new WorldWind.PlacemarkAttributes(null),
             highlightAttributes2,
-            placemarkLayer2 = new WorldWind.RenderableLayer("Shark Attack"),
-            latitude2 = 37.7249303,
-            longitude2 = -123.0302779;
+            placemarkLayer2 = new WorldWind.RenderableLayer("Shark Attacks"),
+            latitude2 = [37.7249303,29.4787,21.5569],
+            longitude2 = [-123.0302779,-81.1288,-157.8537];
+
+
 
         // Set up the common placemark attributes.
         placemarkAttributes.imageScale = 1;
@@ -149,11 +151,11 @@ requirejs(['./WorldWindShim',
         }
 
         for (var i = 0, len = image2.length; i < len; i++) {
-            // Create the placemark and its label.
-            placemark2 = new WorldWind.Placemark(new WorldWind.Position(latitude2, longitude2, 1e2), true, null);
+            // Create the placemark2 and its label.
+            placemark2 = new WorldWind.Placemark(new WorldWind.Position(latitude2[i], longitude2[i], 1e2), true, null);
             placemark2.label = "Red Triangle" + (i+1).toString() + "\n"
-                + "Lat " + placemark.position.latitude.toPrecision(4).toString() + "\n"
-                + "Lon " + placemark.position.longitude.toPrecision(5).toString();
+                + "Lat " + placemark2.position.latitude.toPrecision(4).toString() + "\n"
+                + "Lon " + placemark2.position.longitude.toPrecision(5).toString();
             placemark2.altitudeMode = WorldWind.RELATIVE_TO_GROUND;
 
             // Create the placemark attributes for this placemark. Note that the attributes differ only by their
@@ -173,7 +175,7 @@ requirejs(['./WorldWindShim',
             highlightAttributes2 = new WorldWind.PlacemarkAttributes(placemarkAttributes2);
             highlightAttributes2.imageScale = 0.5;
             placemark2.highlightAttributes2 = highlightAttributes2;
-            console.log(placemark2);
+            console.log(placemark2);// good tho
 
             // Add the placemark to the layer.
             //placemarkLayer.addRenderable(placemark);
@@ -208,8 +210,6 @@ requirejs(['./WorldWindShim',
             }
             highlightedItems = [];
 
-            // Perform the pick. Must first convert from window coordinates to canvas coordinates, which are
-            // relative to the upper left corner of the canvas rather than the upper left corner of the page.
             var pickList = wwd.pick(wwd.canvasCoordinates(x, y));
             console.log(pickList);
             if (pickList.objects.length > 0) {
@@ -221,24 +221,13 @@ requirejs(['./WorldWindShim',
             if (pickList.objects.length > 0)
             {
                 for (var p = 0; p < pickList.objects.length; p++) {
-                    //if (pickList.objects[p].userObject instanceof WorldWind.Placemark) {
-
-                   // var showBox = function () {}
-
-                         //console.log(pickList.objects[p].userObject == placemark2);
-
-
+                    if (pickList.objects[p].userObject instanceof WorldWind.Placemark) {
+                        console.log("called");
 
 
                 pickList.objects[p].userObject.highlighted = true;
-
-                // Keep track of highlighted items in order to de-highlight them later.
                 highlightedItems.push(pickList.objects[p].userObject);
 
-                // Detect whether the placemark's label was picked. If so, the "labelPicked" property is true.
-                // If instead the user picked the placemark's image, the "labelPicked" property is false.
-                // Applications might use this information to determine whether the user wants to edit the label
-                // or is merely picking the placemark as a whole.
                 if (pickList.objects[p].labelPicked)
                 {
                     console.log("Label picked");
@@ -247,55 +236,9 @@ requirejs(['./WorldWindShim',
                         wwd.redraw(); // redraw to make the highlighting changes take effect on the screen
                     }
 
-                    if (pickList.objects[p].userObject === placemark2) {
-                        console.log("mousssssss");
-
-                        // highlight a placemark selected.
-                        // pickList.objects[p].userObject.highlightAttributes.imageScale = 1;
-
-                        // make a popup window
-
-                        /* thissss let modalBtn2 = placemark2;
-                        let modal2 = document.querySelector("#m2")
-                        //let closeBtn2 = document.querySelector("#c2")
-                        console.log(modal2)
-
-                        modal2.style.display = "block"
-
-                        // wwd.addEventListener("click", showBox)
-                        /* modalBtn2.mouseover = function () {
-                            modal2.style.display = "block"
-                        }
-
-                        window.mouseover = function (e) {
-                            if (e.target == modal2) {
-                                modal2.style.display = "none"
-                            }
-                        } */
-
-                        let modal2 = document.querySelector("#m2");
-                        modal2.style.display = 'block';
-                        /*modal2.onmouseout = function (){
-                            modal2.style.display = "none";
-                        }*/
-
-
-                        window.onmouseover = function (e) {
-                            if (e.target == modal2) {
-                                modal2.style.display = "none";
-                            }
-                        }
-
-                    }
-
-
                 }
 
-
-
-            // Update the window if we changed anything.
-
-        }}
+        }}} //end handlePick
 
         var handlePick2 = function (o) {
             var x = o.clientX,
@@ -308,44 +251,50 @@ requirejs(['./WorldWindShim',
             console.log(pickList);
             if (pickList.objects.length > 0)
             {
+
                 for (var p = 0; p < pickList.objects.length; p++) {
 
+                    for (var j = 0; j< placemarkLayer2.renderables.length; j++){
+                        if (pickList.objects[p].userObject.label === placemarkLayer2.renderables[j].label) {
+                            //if (pickList.objects[p].userObject instanceof WorldWind.Placemark){
+                            console.log("1111");
 
-                    if (pickList.objects[p].userObject === placemark2) {
-                        console.log("1111");
+                            // highlight a placemark selected.
+                            // pickList.objects[p].userObject.highlightAttributes.imageScale = 1;
 
-                        // highlight a placemark selected.
-                       // pickList.objects[p].userObject.highlightAttributes.imageScale = 1;
+                            // make a popup window
 
-                        // make a popup window
+                            let modalBtn = placemark2;
+                            let modal = document.querySelector("#m1")
+                            let closeBtn = document.querySelector("#c1")
+                            console.log(modalBtn)
 
-                        let modalBtn = placemark2;
-                        let modal = document.querySelector("#m1")
-                        let closeBtn = document.querySelector("#c1")
-                        console.log(modalBtn)
-
-                         modal.style.display = "block"
-
-
-                        /* this modalBtn.onclick = function () {
                             modal.style.display = "block"
-                        } */
-                        closeBtn.onclick = function () {
-                            modal.style.display = "none"
-                        }
 
 
-                        window.onclick = function (e) {
-                            if (e.target == modal) {
+                            /* this modalBtn.onclick = function () {
+                                modal.style.display = "block"
+                            } */
+                            closeBtn.onclick = function () {
                                 modal.style.display = "none"
                             }
-                        }
 
+
+                            window.onclick = function (e) {
+                                if (e.target == modal) {
+                                    modal.style.display = "none"
+                                }
+                            }
+
+                        }
                     }
+
+
                 }
         }}
 
         var handlePick3 = function (o) {
+            console.log("seen");
             var x = o.clientX,
                 y = o.clientY;
             for (var h = 0; h < highlightedItems.length; h++) {
@@ -356,59 +305,52 @@ requirejs(['./WorldWindShim',
             console.log(pickList);
             if (pickList.objects.length > 0)
             {
+                console.log(pickList.objects);
+                console.log(placemarkLayer2.renderables);
+
                 for (var p = 0; p < pickList.objects.length; p++) {
+                    for (var j = 0; j< placemarkLayer2.renderables.length; j++) {
+                        if (pickList.objects[p].userObject.label === placemarkLayer2.renderables[j].label) {
+                            console.log("picked");
+
+                            document.getElementById('theNo').innerHTML = placemarkLayer2.renderables[j].label;
+                            let modal2 = document.getElementById("m2");
+
+                            //let modalBtn = placemark2;
+                            modal2.style.display = "block";
+                            console.log("1");//yep
+
+                            // wwd.addEventListener("mouseout", function () {
+                            //     modal2.style.display = "none";
+                            // })
+                            // modalBtn.onmouseover = function (){
+                            //     console.log(placemark2);
+                            //     modal2.style.display = "block";
+                            // }
+                            //
+                            // modalBtn.onmouseout = function (){
+                            //     modal2.style.display = "none";
+                            // }
 
 
-                    if (pickList.objects[p].userObject === placemark2) {
-                        console.log("mousssssss");
+                            /*window.onmouseover = function (e) {
+                                if (e.target == modal2) {
+                                    modal2.style.display = "none";
+                                }
+                            }*/
 
-                        // highlight a placemark selected.
-                        // pickList.objects[p].userObject.highlightAttributes.imageScale = 1;
-
-                        // make a popup window
-
-                        /* thissss let modalBtn2 = placemark2;
-                        let modal2 = document.querySelector("#m2")
-                        //let closeBtn2 = document.querySelector("#c2")
-                        console.log(modal2)
-
-                        modal2.style.display = "block"
-
-                        // wwd.addEventListener("click", showBox)
-                        /* modalBtn2.mouseover = function () {
-                            modal2.style.display = "block"
                         }
-
-                        window.mouseover = function (e) {
-                            if (e.target == modal2) {
-                                modal2.style.display = "none"
-                            }
-                        } */
-
-                        let modal2 = document.querySelector("#m2");
-                        modal2.style.display = 'block';
-                        modal2.onmouseout = function (){
-                            modal2.style.display = "none";
-                        }
-
-
-                        window.onmouseover = function (e) {
-                            if (e.target == modal2) {
-                                modal2.style.display = "none";
-                            }
-                        }
-
                     }
                 }
-            }} //end HandlePick3
+        }} //end HandlePick3
 
 
 
 
         // Listen for mouse moves and highlight the placemarks that the cursor rolls over.
-        wwd.addEventListener("mousemove", handlePick);
+       // wwd.addEventListener("mousemove", handlePick);
         wwd.addEventListener("click", handlePick2);
-        wwd.addEventListener("mouseover", handlePick3);
+        wwd.addEventListener("mousemove", handlePick3);
 
         var handleClick = function (recognizer) {
             // Obtain the event location.

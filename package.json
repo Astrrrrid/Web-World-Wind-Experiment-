@@ -65,5 +65,8 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "bootstrap": "^3.4.1"
   }
 }
