@@ -225,20 +225,20 @@ requirejs(['./WorldWindShim',
                         console.log("called");
 
 
-                pickList.objects[p].userObject.highlighted = true;
-                highlightedItems.push(pickList.objects[p].userObject);
+                        pickList.objects[p].userObject.highlighted = true;
+                        highlightedItems.push(pickList.objects[p].userObject);
 
-                if (pickList.objects[p].labelPicked)
-                {
-                    console.log("Label picked");
-                }
-                    if (redrawRequired) {
-                        wwd.redraw(); // redraw to make the highlighting changes take effect on the screen
+                        if (pickList.objects[p].labelPicked)
+                        {
+                            console.log("Label picked");
+                        }
+                        if (redrawRequired) {
+                            wwd.redraw(); // redraw to make the highlighting changes take effect on the screen
+                        }
+
                     }
 
-                }
-
-        }}} //end handlePick
+                }}} //end handlePick
 
         var handlePick2 = function (o) {
             var x = o.clientX,
@@ -291,7 +291,7 @@ requirejs(['./WorldWindShim',
 
 
                 }
-        }}
+            }}
 
         var handlePick3 = function (o) {
             console.log("seen");
@@ -317,8 +317,22 @@ requirejs(['./WorldWindShim',
                             let modal2 = document.getElementById("m2");
 
                             //let modalBtn = placemark2;
-                            modal2.style.display = "block";
+                            //modal2.style.display = "block";
                             console.log("1");//yep
+
+                            // $(document).ready(function(){
+                            //     $('[data-toggle="popover"]').popover();
+                            // });
+
+                            var xOffset = Math.max(document.documentElement.scrollLeft, document.body.scrollLeft);
+                            var yOffset = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
+
+                            modal2.style.position="absolute";
+                            modal2.style.left = (x+xOffset -200)+'px';
+                            modal2.style.top = (y+yOffset-150)+'px';
+                            //
+
+                            $("#m2").show();
 
                             // wwd.addEventListener("mouseout", function () {
                             //     modal2.style.display = "none";
@@ -342,15 +356,16 @@ requirejs(['./WorldWindShim',
                         }
                     }
                 }
-        }} //end HandlePick3
+            }} //end HandlePick3
 
 
 
 
         // Listen for mouse moves and highlight the placemarks that the cursor rolls over.
-       // wwd.addEventListener("mousemove", handlePick);
+        // wwd.addEventListener("mousemove", handlePick);
         wwd.addEventListener("click", handlePick2);
         wwd.addEventListener("mousemove", handlePick3);
+        $("#m2").popover({html:true, placement:"top", trigger:"hover"});
 
         var handleClick = function (recognizer) {
             // Obtain the event location.
@@ -374,8 +389,6 @@ requirejs(['./WorldWindShim',
 
         /*var showBox = function (p) {
             window.open("", "info", "width=200,height=100")
-
-
         } */
 
         //wwd.addEventListener("click", showBox)

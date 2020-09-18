@@ -39,6 +39,11 @@ define(function () {
             thisExplorer.onProjectionClick(e);
         });
 
+        this.createSharkList();
+        $("#sharkDropdown").find(" li").on("click", function (e) {
+            thisExplorer.onSharkClick(e);
+        });
+
         this.synchronizeLayerList();
 
         $("#searchBox").find("button").on("click", function (e) {
@@ -97,6 +102,32 @@ define(function () {
             if (this.wwd.globe !== this.flatGlobe) {
                 this.wwd.globe = this.flatGlobe;
             }
+        }
+
+        this.wwd.redraw();
+    };
+
+    LayerManager.prototype.onSharkClick = function (event) {
+        var projectionName = event.target.innerText || event.target.innerHTML;
+        $("#projectionDropdown").find("button").html(projectionName + ' <span class="caret"></span>');
+
+        if (projectionName === "Shark Attacks") {
+
+            var sharkLayer = this.wwd.layers[this.wwd.layers.length-1];
+            sharkLayer.enabled = !sharkLayer.enabled;
+        } else if(projectionName === "Spot Info"){
+
+            let modal = document.querySelector("#m1")
+            let closeBtn = document.querySelector("#c1")
+            modal.style.display = "block";
+            closeBtn.onclick = function () {
+                modal.style.display = "none"
+            }
+        }else if(projectionName === "About Red Triangle"){
+            window.location.href = "https://en.wikipedia.org/wiki/Red_Triangle_(Pacific_Ocean)";
+        }else if(projectionName === "toggle"){
+            var sharkLayer = this.wwd.layers[this.wwd.layers.length-1];
+            sharkLayer.enabled = !sharkLayer.enabled;
         }
 
         this.wwd.redraw();
@@ -196,6 +227,30 @@ define(function () {
         var projectionDropdown = $("#projectionDropdown");
 
         var dropdownButton = $('<button class="btn btn-info btn-block dropdown-toggle" type="button" data-toggle="dropdown">3D<span class="caret"></span></button>');
+        projectionDropdown.append(dropdownButton);
+
+        var ulItem = $('<ul class="dropdown-menu">');
+        projectionDropdown.append(ulItem);
+
+        for (var i = 0; i < projectionNames.length; i++) {
+            var projectionItem = $('<li><a >' + projectionNames[i] + '</a></li>');
+            ulItem.append(projectionItem);
+        }
+
+        ulItem = $('</ul>');
+        projectionDropdown.append(ulItem);
+    };
+
+    LayerManager.prototype.createSharkList = function () {
+        var projectionNames = [
+            "Shark Attacks",
+            "Spot Info",
+            "About Red Triangle",
+            "toggle"
+        ];
+        var projectionDropdown = $("#sharkDropdown");
+
+        var dropdownButton = $('<button class="btn btn-info btn-block dropdown-toggle" type="button" data-toggle="dropdown">Shark Attacks<span class="caret"></span></button>');
         projectionDropdown.append(dropdownButton);
 
         var ulItem = $('<ul class="dropdown-menu">');
