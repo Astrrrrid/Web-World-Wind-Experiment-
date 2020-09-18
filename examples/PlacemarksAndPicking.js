@@ -241,6 +241,7 @@ requirejs(['./WorldWindShim',
                 }}} //end handlePick
 
         var handlePick2 = function (o) {
+            console.log("we")
             var x = o.clientX,
                 y = o.clientY;
             for (var h = 0; h < highlightedItems.length; h++) {
@@ -248,7 +249,7 @@ requirejs(['./WorldWindShim',
             }
             highlightedItems = [];
             var pickList = wwd.pick(wwd.canvasCoordinates(x, y));
-            console.log(pickList);
+            // console.log(pickList);
             if (pickList.objects.length > 0)
             {
 
@@ -264,12 +265,12 @@ requirejs(['./WorldWindShim',
 
                             // make a popup window
 
-                            let modalBtn = placemark2;
+                            // let modalBtn = placemark2;
                             let modal = document.querySelector("#m1")
                             let closeBtn = document.querySelector("#c1")
-                            console.log(modalBtn)
+                            // console.log(modalBtn)
 
-                            modal.style.display = "block"
+                            modal.style.display = "block";
 
 
                             /* this modalBtn.onclick = function () {
@@ -295,6 +296,8 @@ requirejs(['./WorldWindShim',
 
         var handlePick3 = function (o) {
             console.log("seen");
+            let modal2 = document.getElementById("m2");
+            modal2.style.display = "none";
             var x = o.clientX,
                 y = o.clientY;
             for (var h = 0; h < highlightedItems.length; h++) {
@@ -328,8 +331,8 @@ requirejs(['./WorldWindShim',
                             var yOffset = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
 
                             modal2.style.position="absolute";
-                            modal2.style.left = (x+xOffset -200)+'px';
-                            modal2.style.top = (y+yOffset-150)+'px';
+                            modal2.style.left = (x+xOffset -230)+'px';
+                            modal2.style.top = (y+yOffset-180)+'px';
                             //
 
                             $("#m2").show();

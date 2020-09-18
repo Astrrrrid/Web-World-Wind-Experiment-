@@ -26,6 +26,15 @@
             height: 100%;
 
         }
+        #m2{
+            display: none;
+            position: fixed;
+            padding-top: 50px;
+            left: 25%;
+            top: 13%;
+            width: 200px;
+
+        }
         .modal-content {
             position: relative;
             background-color: white;
@@ -116,16 +125,17 @@
         <h4>cited from website: Only In Your State</h4>
     </div>
 </div>
+<div>
+    <div class="modal" id="m2" >
 
-<div class="modal" id="m2" show={this.state.show}>
+        <div class="modal-content">
+            <span>Shark dangerous spot</span>
+            <span id="theNo"></span>
+            <span>: click for more information</span>
 
-    <div class="modal-content">
-        <span>Shark dangerous spot</span>
-        <span id="theNo"></span>
-        <span>: click for more information</span>
+        </div>
 
     </div>
-
 </div>
 
 

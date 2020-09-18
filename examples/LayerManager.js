@@ -250,7 +250,7 @@ define(function () {
         ];
         var projectionDropdown = $("#sharkDropdown");
 
-        var dropdownButton = $('<button class="btn btn-info btn-block dropdown-toggle" type="button" data-toggle="dropdown">Shark Attacks<span class="caret"></span></button>');
+        var dropdownButton = $('<button class="btn btn-info btn-block dropdown-toggle" type="button" data-toggle="dropdown">Dangerous Area<span class="caret"></span></button>');
         projectionDropdown.append(dropdownButton);
 
         var ulItem = $('<ul class="dropdown-menu">');
