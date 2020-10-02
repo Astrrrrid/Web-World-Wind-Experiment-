@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8116661a-a5bc-42dc-8fdd-05648139955c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/LayerManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/LayerManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/PlacemarksAndPicking.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PlacemarksAndPicking.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/examples/PlacemarksAndPicking.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/PlacemarksAndPicking.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/WMS.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/WMS.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modal.html" beforeDir="false" afterPath="$PROJECT_DIR$/modal.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+            <state relative-caret-position="344">
+              <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
               <folding>
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,11 +33,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/WMS.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/WMS.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="240" column="36" lean-forward="true" selection-start-line="240" selection-start-column="36" selection-end-line="240" selection-end-column="36" />
+            <state relative-caret-position="5895">
+              <caret line="408" column="96" selection-start-line="408" selection-start-column="96" selection-end-line="408" selection-end-column="96" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -46,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examples/LayerManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="116" column="53" lean-forward="true" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="53" />
+            <state relative-caret-position="1575">
+              <caret line="120" column="56" selection-start-line="120" selection-start-column="56" selection-end-line="120" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -55,8 +74,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modal.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="3825">
+              <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -72,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>redrawRequired</find>
       <find>window.o</find>
       <find>rendera</find>
       <find>Placemark2</find>
@@ -102,6 +120,7 @@
       <find>modalBtn</find>
       <find>synchronize</find>
       <find>handlePick2</find>
+      <find>enab</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,11 +131,12 @@
       <list>
         <option value="$USER_HOME$/iCloud Drive (Archive)/Desktop/wwp/examples/PlacemarksAndPicking.html" />
         <option value="$USER_HOME$/iCloud Drive (Archive)/Desktop/wwp/examples/PlacemarksAndPicking.js" />
-        <option value="$PROJECT_DIR$/modal.html" />
         <option value="$PROJECT_DIR$/examples/PickAllShapesInRegion.html" />
         <option value="$PROJECT_DIR$/examples/LayerManager.js" />
+        <option value="$PROJECT_DIR$/modal.html" />
         <option value="$PROJECT_DIR$/examples/PlacemarksAndPicking.js" />
         <option value="$PROJECT_DIR$/examples/PlacemarksAndPicking.html" />
+        <option value="$PROJECT_DIR$/examples/WMS.js" />
       </list>
     </option>
   </component>
@@ -137,74 +157,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="apps" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="collada_models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="collada_models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="duck" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="performance" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="layer" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="geom" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,6 +168,24 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="wwp" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="wwp" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -234,7 +204,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
@@ -276,18 +246,20 @@
       <workItem from="1584034710548" duration="9447000" />
       <workItem from="1585142416601" duration="2220000" />
       <workItem from="1599057362776" duration="22047000" />
-      <workItem from="1599657810818" duration="26082000" />
+      <workItem from="1599657810818" duration="26235000" />
+      <workItem from="1601045045665" duration="6493000" />
+      <workItem from="1601659773558" duration="2200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98237000" />
+    <option name="totallyTimeSpent" value="107083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="956" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2741148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -421,9 +393,6 @@
     <entry file="file://$PROJECT_DIR$/examples/Polygons.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/WMS.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/performance/DeepPickingPerformance.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -446,37 +415,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modal.html">
+    <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examples/LayerManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="116" column="53" lean-forward="true" selection-start-line="116" selection-start-column="12" selection-end-line="116" selection-end-column="53" />
+        <state relative-caret-position="344">
+          <caret line="178" column="32" selection-start-line="178" selection-start-column="32" selection-end-line="178" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="240" column="36" lean-forward="true" selection-start-line="240" selection-start-column="36" selection-end-line="240" selection-end-column="36" />
+        <state relative-caret-position="5895">
+          <caret line="408" column="96" selection-start-line="408" selection-start-column="96" selection-end-line="408" selection-end-column="96" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/examples/PlacemarksAndPicking.html">
+    <entry file="file://$PROJECT_DIR$/examples/LayerManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="86" column="39" lean-forward="true" selection-start-line="86" selection-start-column="39" selection-end-line="86" selection-end-column="39" />
+        <state relative-caret-position="1575">
+          <caret line="120" column="56" selection-start-line="120" selection-start-column="56" selection-end-line="120" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3825">
+          <caret line="255" column="22" selection-start-line="255" selection-start-column="22" selection-end-line="255" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/WMS.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/WMS.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
           <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#canvas#0;n#div#1;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -531,6 +513,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
+          <last-edited>wwp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

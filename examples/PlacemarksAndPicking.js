@@ -75,10 +75,10 @@ requirejs(['./WorldWindShim',
         ];
 
         var image2 = [
-            "shark.png", "shark2.png","shark3.png"
+            "shark.png", "shark2.png", "shark3.png"
         ];
 
-        WorldWind.configuration.baseUrl
+        WorldWind.configuration.baseUrl;
         var pinLibrary = WorldWind.configuration.baseUrl + "images/pushpins/", // location of the image files
             placemark,
             placemarkAttributes = new WorldWind.PlacemarkAttributes(null),
@@ -92,9 +92,8 @@ requirejs(['./WorldWindShim',
             placemarkAttributes2 = new WorldWind.PlacemarkAttributes(null),
             highlightAttributes2,
             placemarkLayer2 = new WorldWind.RenderableLayer("Shark Attacks"),
-            latitude2 = [37.7249303,29.4787,21.5569],
-            longitude2 = [-123.0302779,-81.1288,-157.8537];
-
+            latitude2 = [37.7249303, 29.4787, 21.5569],
+            longitude2 = [-123.0302779, -81.1288, -157.8537];
 
 
         // Set up the common placemark attributes.
@@ -153,7 +152,7 @@ requirejs(['./WorldWindShim',
         for (var i = 0, len = image2.length; i < len; i++) {
             // Create the placemark2 and its label.
             placemark2 = new WorldWind.Placemark(new WorldWind.Position(latitude2[i], longitude2[i], 1e2), true, null);
-            placemark2.label = "Red Triangle" + (i+1).toString() + "\n"
+            placemark2.label = "Red Triangle" + (i + 1).toString() + "\n"
                 + "Lat " + placemark2.position.latitude.toPrecision(4).toString() + "\n"
                 + "Lon " + placemark2.position.longitude.toPrecision(5).toString();
             placemark2.altitudeMode = WorldWind.RELATIVE_TO_GROUND;
@@ -194,7 +193,6 @@ requirejs(['./WorldWindShim',
         var highlightedItems = [];
 
 
-
         // The common pick-handling function.
         var handlePick = function (o) {
             // The input argument is either an Event or a TapRecognizer. Both have the same properties for determining
@@ -218,8 +216,7 @@ requirejs(['./WorldWindShim',
 
             // Highlight the items picked by simply setting their highlight flag to true.
             console.log(pickList.objects[0]);
-            if (pickList.objects.length > 0)
-            {
+            if (pickList.objects.length > 0) {
                 for (var p = 0; p < pickList.objects.length; p++) {
                     if (pickList.objects[p].userObject instanceof WorldWind.Placemark) {
                         console.log("called");
@@ -228,8 +225,7 @@ requirejs(['./WorldWindShim',
                         pickList.objects[p].userObject.highlighted = true;
                         highlightedItems.push(pickList.objects[p].userObject);
 
-                        if (pickList.objects[p].labelPicked)
-                        {
+                        if (pickList.objects[p].labelPicked) {
                             console.log("Label picked");
                         }
                         if (redrawRequired) {
@@ -238,10 +234,12 @@ requirejs(['./WorldWindShim',
 
                     }
 
-                }}} //end handlePick
+                }
+            }
+        }; //end handlePick
 
         var handlePick2 = function (o) {
-            console.log("we")
+            console.log("we");
             var x = o.clientX,
                 y = o.clientY;
             for (var h = 0; h < highlightedItems.length; h++) {
@@ -250,12 +248,11 @@ requirejs(['./WorldWindShim',
             highlightedItems = [];
             var pickList = wwd.pick(wwd.canvasCoordinates(x, y));
             // console.log(pickList);
-            if (pickList.objects.length > 0)
-            {
+            if (pickList.objects.length > 0) {
 
                 for (var p = 0; p < pickList.objects.length; p++) {
 
-                    for (var j = 0; j< placemarkLayer2.renderables.length; j++){
+                    for (var j = 0; j < placemarkLayer2.renderables.length; j++) {
                         if (pickList.objects[p].userObject.label === placemarkLayer2.renderables[j].label) {
                             //if (pickList.objects[p].userObject instanceof WorldWind.Placemark){
                             console.log("1111");
@@ -266,8 +263,8 @@ requirejs(['./WorldWindShim',
                             // make a popup window
 
                             // let modalBtn = placemark2;
-                            let modal = document.querySelector("#m1")
-                            let closeBtn = document.querySelector("#c1")
+                            let modal = document.querySelector("#m1");
+                            let closeBtn = document.querySelector("#c1");
                             // console.log(modalBtn)
 
                             modal.style.display = "block";
@@ -278,7 +275,7 @@ requirejs(['./WorldWindShim',
                             } */
                             closeBtn.onclick = function () {
                                 modal.style.display = "none"
-                            }
+                            };
 
 
                             window.onclick = function (e) {
@@ -292,7 +289,8 @@ requirejs(['./WorldWindShim',
 
 
                 }
-            }}
+            }
+        };
 
         var handlePick3 = function (o) {
             console.log("seen");
@@ -306,13 +304,12 @@ requirejs(['./WorldWindShim',
             highlightedItems = [];
             var pickList = wwd.pick(wwd.canvasCoordinates(x, y));
             console.log(pickList);
-            if (pickList.objects.length > 0)
-            {
+            if (pickList.objects.length > 0) {
                 console.log(pickList.objects);
                 console.log(placemarkLayer2.renderables);
 
                 for (var p = 0; p < pickList.objects.length; p++) {
-                    for (var j = 0; j< placemarkLayer2.renderables.length; j++) {
+                    for (var j = 0; j < placemarkLayer2.renderables.length; j++) {
                         if (pickList.objects[p].userObject.label === placemarkLayer2.renderables[j].label) {
                             console.log("picked");
 
@@ -330,9 +327,9 @@ requirejs(['./WorldWindShim',
                             var xOffset = Math.max(document.documentElement.scrollLeft, document.body.scrollLeft);
                             var yOffset = Math.max(document.documentElement.scrollTop, document.body.scrollTop);
 
-                            modal2.style.position="absolute";
-                            modal2.style.left = (x+xOffset -230)+'px';
-                            modal2.style.top = (y+yOffset-180)+'px';
+                            modal2.style.position = "absolute";
+                            modal2.style.left = (x + xOffset - 230) + 'px';
+                            modal2.style.top = (y + yOffset - 180) + 'px';
                             //
 
                             $("#m2").show();
@@ -359,16 +356,59 @@ requirejs(['./WorldWindShim',
                         }
                     }
                 }
-            }} //end HandlePick3
-
-
+            }
+        }; //end HandlePick3
 
 
         // Listen for mouse moves and highlight the placemarks that the cursor rolls over.
         // wwd.addEventListener("mousemove", handlePick);
         wwd.addEventListener("click", handlePick2);
         wwd.addEventListener("mousemove", handlePick3);
-        $("#m2").popover({html:true, placement:"top", trigger:"hover"});
+        $("#m2").popover({html: true, placement: "top", trigger: "hover"});
+
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                    panel.style.display = "none";
+                } else {
+                    panel.style.display = "block";
+                }
+            });
+        }
+        var checkbox = document.querySelector('input[type="checkbox"]');
+        console.log(checkbox);
+        checkbox.addEventListener('change', function () {
+            var sharkLayer = wwd.layers[wwd.layers.length - 1];
+            if (checkbox.checked) {
+                sharkLayer.enabled = true;
+                console.log('turned on');
+            } else {
+                //sharkLayer.enabled = !sharkLayer.enabled;
+                sharkLayer.enabled = false;
+                console.log('turned off');
+            }
+        });
+
+        var SpotInfo = document.getElementById("info1");
+        SpotInfo.addEventListener("click", function(){
+            let modal = document.querySelector("#m1");
+            let closeBtn = document.querySelector("#c1");
+            modal.style.display = "block";
+            closeBtn.onclick = function () {
+                modal.style.display = "none"
+            }
+        });
+
+        var directWeb = document.getElementById("info2");
+        directWeb.addEventListener("click",function(){
+            window.location.href = "https://en.wikipedia.org/wiki/Red_Triangle_(Pacific_Ocean)";
+        })
+
 
         var handleClick = function (recognizer) {
             // Obtain the event location.

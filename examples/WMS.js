@@ -53,6 +53,7 @@ requirejs(['./WorldWindShim',
         // Web Map Service information from NASA's Near Earth Observations WMS
         var serviceAddress = "https://neo.sci.gsfc.nasa.gov/wms/wms?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0";
         // Named layer displaying Average Temperature data
+        var serAdd = "http://aworldbridgelabs.com:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities";
         var layerName = "MOD_LSTD_CLIM_M";
 
         // Called asynchronously to parse and create the WMS layer
