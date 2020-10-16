@@ -380,17 +380,31 @@ requirejs(['./WorldWindShim',
                 }
             });
         }
-        var checkbox = document.querySelector('input[type="checkbox"]');
+        var checkbox = document.getElementById("sharkC");
         console.log(checkbox);
         checkbox.addEventListener('change', function () {
-            var sharkLayer = wwd.layers[wwd.layers.length - 1];
+            var sharkLayer = wwd.layers[wwd.layers.length - 2];
             if (checkbox.checked) {
                 sharkLayer.enabled = true;
-                console.log('turned on');
+                console.log('turned sharks on');
             } else {
                 //sharkLayer.enabled = !sharkLayer.enabled;
                 sharkLayer.enabled = false;
-                console.log('turned off');
+                console.log('turned sharks off');
+            }
+        });
+
+        var checkbox2 = document.getElementById("campusC");
+        console.log(checkbox2);
+        checkbox2.addEventListener('change', function () {
+            var FTCMLayer = wwd.layers[wwd.layers.length - 1];
+            if (checkbox2.checked) {
+                FTCMLayer.enabled = true;
+                console.log('turned FTCM on');
+            } else {
+                //sharkLayer.enabled = !sharkLayer.enabled;
+                FTCMLayer.enabled = false;
+                console.log('turned FTCM off');
             }
         });
 
@@ -441,13 +455,56 @@ requirejs(['./WorldWindShim',
         var tapRecognizer = new WorldWind.TapRecognizer(wwd, handlePick);
 
 
+
+        //start of Challenge 5
+        // var checkbox2 = document.querySelector('input[type="checkbox2"]');
+        // console.log(checkbox2);
+        // checkbox.addEventListener('change', function () {
+        //     var wmsLayer = wwd.layers[wwd.layers.length - 1];
+        //     if (checkbox2.checked) {
+        //         wmsLayer.enabled = true;
+        //         console.log('turned on');
+        //     } else {
+        //         //sharkLayer.enabled = !sharkLayer.enabled;
+        //         wmsLayer.enabled = false;
+        //         console.log('turned off');
+        //     }
+        // });
+
+        var serAdd = "http://aworldbridgelabs.com:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities";
+
+        var layerName = "Bryce_Challenge5:FTAA_Campus";
+
+        // Called asynchronously to parse and create the WMS layer
+        var createLayer = function (xmlDom) {
+            // Create a WmsCapabilities object from the XML DOM
+            var wms = new WorldWind.WmsCapabilities(xmlDom);
+
+            var wmsLayerCapabilities = wms.getNamedLayer(layerName);
+            //var wmsLayerCapabilities1 = wms.getLayer(layerIdentifier);
+            console.log(wmsLayerCapabilities);
+
+            var wmsConfig = WorldWind.WmsLayer.formLayerConfiguration(wmsLayerCapabilities);
+
+            wmsConfig.title = "Campus View";
+            // Create the WMS Layer from the configuration object
+            var wmsLayer = new WorldWind.WmsLayer(wmsConfig);
+
+            // Add the layers to WorldWind and update the layer manager
+            wwd.addLayer(wmsLayer);
+            layerManager.synchronizeLayerList();
+        };
+
+        // Called if an error occurs during WMS Capabilities document retrieval
+        var logError = function (jqXhr, text, exception) {
+            console.log("There was a failure retrieving the capabilities document: " + text + " exception: " + exception);
+        };
+
+        $.get(serAdd).done(createLayer).fail(logError);
+
         // Create a layer manager for controlling layer visibility.
         var layerManager = new LayerManager(wwd);
+
+
     });
 
-// 1. make multiple placemarks,
-// 2. add two listners, click and mousemove
-//     2.1 handle function 1 for click
-//            2.1.1 identify the placemark object first, then which placemark object
-
-//      2.2 handle function 2 for mousemove/mouseover
